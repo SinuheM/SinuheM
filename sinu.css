@@ -1,0 +1,66 @@
+html, body{
+ 
+	background: #eee url(http://www.yakugroup.com/wiki/lib/tpl/dokuwiki/images/page-gradient.png) top left repeat-x;
+}
+h1, h2, h3{
+	font-family: "'Open Sans Light',X-LocaleSpecific-Light,'Open Sans',X-LocaleSpecific";
+}
+.level1 img{
+	width:100%;
+}
+.level1{
+	padding-right: 50px;
+}
+.level2{
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+  	background: #ddd;
+}
+.level2 h2{
+	font-size: 1.3em;
+	margin:0;
+}
+.level2 h3{
+	margin: .5em 0 .5em 1em;
+}
+.level2 h2 a{
+	padding: 1em;
+	text-decoration: none;
+}
+.level2 h2 a:hover{
+	background: #eee;
+	text-decoration: none;
+}
+.level2 p{
+	margin: .5em 0 0 0;
+}
+.level2 p, .level2 div, .level2 a{
+	display: none;
+}
+.level2 h2 a,.level2 h3 a{
+	display: block;
+}
+#dokuwiki__site > .site{
+	background-color: #eee;
+}
+#dokuwiki__site .wrapper{
+	background-color:#444;
+}
+.sectionedit1{
+	color:#444;
+}
+area:hover{
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+}
+.imapcontent{
+	display:none;
+}
+.level2 h2, .level2 h3{
+	text-decoration: none;
+}
+.level3 p{
+	margin-left: 1em;
+}
