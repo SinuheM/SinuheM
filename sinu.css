@@ -1,9 +1,14 @@
 html, body{
- 
+ 	margin: 0; padding: 0;
 	background: #eee url(http://www.yakugroup.com/wiki/lib/tpl/dokuwiki/images/page-gradient.png) top left repeat-x;
+}
+h1{
+	margin: 0;
+	
 }
 h1, h2, h3{
 	font-family: 'Open Sans', sans-serif;	
+	font-weight: bold;
 }
 .level1 img{
 	width:100%;
@@ -40,7 +45,7 @@ h1, h2, h3{
 }
 .level2 h2 a,.level2 h3 a{
 	display: block;
-	  font-weight: 500
+	font-weight: bold;
 }
 #dokuwiki__site > .site{
 	background-color: #eee;
@@ -61,6 +66,7 @@ area:hover{
 }
 .level2 h2, .level2 h3{
 	text-decoration: none;
+	font-weight: bold;
 }
 .level3 p, .level3 a{
 	margin-left: 2em;
