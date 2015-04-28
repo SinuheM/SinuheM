@@ -1,9 +1,12 @@
 html, body{
  	margin: 0; padding: 0;
-	background: #eee url(http://www.yakugroup.com/wiki/lib/tpl/dokuwiki/images/page-gradient.png) top left repeat-x;
+	background: #ddd url(http://www.yakugroup.com/wiki/lib/tpl/dokuwiki/images/page-gradient.png) top left repeat-x;
 }
 h1{
 	margin: 0;
+	font-weight: lighter;
+	font-size: 1.3em;
+	padding: .5em;
 }
 h1 a span{
 	font-size: .6em;
@@ -31,7 +34,10 @@ h1, h2, h3, h2 a, h3 a, h1 a span{
 	max-width: 1024px;
 	margin: 0 auto;
 	overflow: hidden;
-  	background: #ddd;
+  	background: #eee;
+}
+.level2 h1{
+	font-weight: lighter;
 }
 .level2 h2{
 	font-size: 1em;
@@ -45,7 +51,7 @@ h1, h2, h3, h2 a, h3 a, h1 a span{
 	text-decoration: none;
 }
 .level2 h2 a:hover{
-	background: #eee;
+	background: #ddd;
 	text-decoration: none;
 }
 .level2 p{
@@ -69,7 +75,7 @@ h1, h2, h3, h2 a, h3 a, h1 a span{
 	background-color: #eee;
 }
 #dokuwiki__site .wrapper{
-	background-color:#444;
+	background-color:#fff;
 }
 .sectionedit1{
 	color:#444;
