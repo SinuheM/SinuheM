@@ -91,5 +91,8 @@ area:hover{
 	font-size: .85em;
 }
 .level3 h3 a{
-	margin-left: 0;
+	margin-left: 10px;
+}
+.level3 h3 a:before{
+	content: "- "
 }
