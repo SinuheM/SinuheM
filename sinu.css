@@ -17,7 +17,7 @@ a{
 *{
 	font-family: "serif";
 }
-h1, h2, h3{
+h1, h2, h3, h2 a, h3 a{
 	font-family: 'Open Sans', sans-serif;	
 	font-weight: bold;
 }
@@ -88,8 +88,8 @@ area:hover{
 }
 .level3 p, .level3 a{
 	margin-left: 2em;
-	font-size: .9em;
+	font-size: .85em;
 }
 .level3 h3 a{
-	margin-left: 1em;
+	margin-left: 0;
 }
