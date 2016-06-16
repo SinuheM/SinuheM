@@ -12,5 +12,19 @@
    <h2 class="hello">
    		Hello
    </h2>
+   <script>
+   	var hi = document.getElementsByClassName("hello")[0];
+	fadeIn(hi);
+
+	function fadeIn(hi) {
+	  var tick = function() {
+	    hi.style.opacity = +hi.style.opacity + 0.01;
+	    if (+hi.style.opacity < 1) {
+	      setTimeout(tick, 16)
+	    }
+	  };
+	  tick();
+	}
+   </script>
 </body>
 </html>
