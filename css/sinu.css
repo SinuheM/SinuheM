@@ -23,6 +23,14 @@ h1{
 	position: absolute;
 	transform: translateX(-50%);
 }
+.mail{
+	color: #ddd;
+    text-decoration: none;
+    font-family: monospace;
+	right: 20px;
+	margin-top: 10px;
+	position: absolute;
+}
 @media (max-width: 1200px) {
 	html, body{
 		background: #ddd url(../image/background.jpg) center center;
