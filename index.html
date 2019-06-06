@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adrian Gonzalo Priale | Web developer/designer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,9 +24,9 @@
                     <i></i>
                 </a>
                 <ul>
-                    <li><a class="active" href="#home">HOME</a></li>
-                    <li><a href="#work">WORK</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a id="nav-home" class="active" href="#home">HOME</a></li>
+                    <li><a id="nav-work" href="#work">WORK</a></li>
+                    <li><a id="nav-cont" href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -43,8 +43,10 @@
                     <li><a href="https://medium.com/@DarthSinuhe" target="_blank" title="Medium"><i class="icn icn-medium"></i></a></li>
                 </ul>
             </div>
-            <div class="more animated bounce infinite slow delay-5s infinite-toggle">
-                <a href="#work"><i class="icn icn-rowdown"></i> SCROLL FOR MORE</a>
+            <div class="more infinite-toggle">
+                <div class="animated bounce infinite slow delay-5s">
+                    <a href="#work"><i class="icn icn-rowdown"></i> SCROLL FOR MORE</a>
+                </div>
             </div>
         </section>
         <div class="circle"></div>
@@ -60,7 +62,7 @@
                     </a>
                     <h4>Rediseño de interfaz base para proyectos geográficos</h4>
                     <p>
-                        <code>PUG - SCSS - JS (Vue Js)</code>
+                        <code>PUG - SCSS - JS (Vue Js) - JAVA</code>
                     </p>
                 </div>
                 <div class="project">
