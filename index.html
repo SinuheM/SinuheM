@@ -1,31 +1,142 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Web, UX, FrontEnd, Innovation">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Sinuhe</title>
-    <link rel="stylesheet" href="css/sinu.css">
-</head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adrian Gonzalo Priale | Web developer/designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
 <body>
-   <h2 class="hello">
-   		Hello
-   </h2>
-   <a class="mail" href="mailto:sinuhe-10&#64;hotmail.com">Contáctame</a>
-   <script>
-   	var hi = document.getElementsByClassName("hello")[0];
-	fadeIn(hi);
-
-	function fadeIn(hi) {
-	  var tick = function() {
-	    hi.style.opacity = +hi.style.opacity + 0.01;
-	    if (+hi.style.opacity < 1) {
-	      setTimeout(tick, 16)
-	    }
-	  };
-	  tick();
-	}
-   </script>
+    <div class="wrapper" id="home">
+        <header>
+            <div class="logo">
+                <a href="/"><img src="img/logo.png" alt="Priale Logo"></a>
+                <h1 class="hide">Adrian Gonzalo Priale Cordova | Web developer | Web designer</h1>
+            </div>
+            <nav>
+                <a href="#" id="toggleNav">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </a>
+                <ul>
+                    <li><a class="active" href="#home">HOME</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hello animated fadeInUp">
+            <div class="section-title">
+                <h2>Hello!</h2>
+                <p>I'm Adrián G. Prialé, I work as a web developer in <br>Huancayo - Perú</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/gonzalopc/" target="_blank" title="Linkedin"><i class="icn icn-linkedin"></i></a></li>
+                    <li><a href="https://dribbble.com/sinuhe" target="_blank" title="Dribbble"><i class="icn icn-dribble"></i></a></li>
+                    <li><a href="https://codepen.io/DarthSinuhe/" target="_blank" title="Codepen"><i class="icn icn-codepen"></i></a></li>
+                    <li><a href="https://medium.com/@DarthSinuhe" target="_blank" title="Medium"><i class="icn icn-medium"></i></a></li>
+                </ul>
+            </div>
+            <div class="more animated bounce infinite slow delay-5s infinite-toggle">
+                <a href="#work"><i class="icn icn-rowdown"></i> SCROLL FOR MORE</a>
+            </div>
+        </section>
+        <div class="circle"></div>
+        <section id="work" class="work">
+            <div class="section-title">
+                <h2>Work</h2>
+                <p>Some of my web and mobile projects</p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <a href="http://181.224.247.171:8080/geoUefsa/#" target="_blank">
+                        <img src="img/work-sa.jpg" alt="ideasG Project">
+                    </a>
+                    <h4>Rediseño de interfaz base para proyectos geográficos</h4>
+                    <p>
+                        <code>PUG - SCSS - JS (Vue Js)</code>
+                    </p>
+                </div>
+                <div class="project">
+                    <a href="http://www.carrocochino.com" target="_blank">
+                        <img src="img/work-cc.png" alt="Carrocochino Page">
+                    </a>
+                    <h4>Desarrollo de plataforma de reserva de pedidos - Carrocochino</h4>
+                    <p>
+                        <code>PUG - SASS - JS (Angular Js)</code>
+                    </p>
+                </div>
+                <div class="project">
+                    <a href="https://sidmop.com" target="_blank">
+                        <img src="img/work-sidmop.png" alt="Sidmop Page">
+                    </a>
+                        <h4>Desarrollo frontend para un sistema de geomarketing - Sidmop</h4>
+                        <p>
+                            <code>PUG - SASS - JS (Angular Js)</code>
+                        </p>
+                    </div>
+                <div class="project">
+                    <a href="http://isgd.org.pe" target="_blank">
+                        <img src="img/work-isgd.png" alt="ISGD Page">
+                    </a>
+                        <h4>Plataforma e-learning - ISGD</h4>
+                        <p>
+                            <code>HTML - CSS - JS - PHP (Laravel)</code>
+                            <br><br>
+                        </p>
+                    </div>
+                <div class="project">
+                    <a href="http://www.cibercont.com" target="_blank">
+                        <img src="img/work-cibercont.png" alt="Cibercont Landing Page">
+                    </a>
+                        <h4>Landing Page - Cibercont</h4>
+                        <p>
+                            <code>HTML - CSS - JS</code>
+                        </p>
+                    </div>
+                <div class="project">
+                    <a href="http://www.itec.edu.pe" target="_blank">
+                        <img src="img/work-itec.png" alt="Itec Landing Page">
+                    </a>
+                        <h4>Landing Page - Itec</h4>
+                        <p>
+                        
+                            <code>HTML - CSS - JS</code>
+                        </p>
+                    </div>
+            </div>
+        </section>
+        <div class="hexa"></div>
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Feel free to get in touch with me. I am always open to discussing new projects or opportunities.</p>
+            </div>
+            <div class="contact-bloq">
+                <span>Say Hi:</span>
+                <h4><a href="mailto:adrianpriale&#64;gmail&#46;com">adrianpriale&#64;gmail&#46;com</a></h4>
+            </div>
+            <div class="contact-bloq">
+                <span>Or find me on:</span>
+                <div class="social">
+                    <ul>
+                            <li><a href="https://www.linkedin.com/in/gonzalopc/" target="_blank" title="Linkedin"><i class="icn icn-linkedin"></i></a></li>
+                            <li><a href="https://dribbble.com/sinuhe" target="_blank" title="Dribbble"><i class="icn icn-dribble"></i></a></li>
+                            <li><a href="https://codepen.io/DarthSinuhe/" target="_blank" title="Codepen"><i class="icn icn-codepen"></i></a></li>
+                            <li><a href="https://medium.com/@DarthSinuhe" target="_blank" title="Medium"><i class="icn icn-medium"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>© Made with ♡ by me.</footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
