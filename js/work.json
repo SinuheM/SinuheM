@@ -1,0 +1,52 @@
+{
+    "work": [
+        {   
+            "name": "Diseño y desarrollo de ecommerce para bodegas de condominios",
+            "url": "https://dribbble.com/shots/6469990-La-bodeguita",
+            "image": "bodeguita.png",
+            "technology": "Paper - Figma - Ionic"
+        },
+        {   
+            "name": "Rediseño de interfaz base para proyectos geográficos",
+            "url": "http://181.224.247.171:8080/geoUefsa/#",
+            "image": "sa.jpg",
+            "technology": "PUG - SCSS - Vue Js - Java"
+        },
+        {   
+            "name": "Desarrollo web - Infonet",
+            "url": "http://infonet.edu.pe/",
+            "image": "infonet.png",
+            "technology": "Wordpress"
+        },
+        {   
+            "name": "Landing Page - Cibercont",
+            "url": "http://www.cibercont.com",
+            "image": "cibercont.png",
+            "technology": "HTML - CSS - JS"
+        },
+        {   
+            "name": "Desarrollo de plataforma de reserva de pedidos - Carrocochino",
+            "url": "http://www.carrocochino.com",
+            "image": "cc.png",
+            "technology": "PUG - SASS - Angular Js"
+        },
+        {   
+            "name": "Desarrollo frontend para un sistema de geomarketing - Sidmop",
+            "url": "http://www.sidmop.com",
+            "image": "sidmop.png",
+            "technology": "PUG - SASS - Angular Js"
+        },
+        {   
+            "name": "Plataforma e-learning - ISGD",
+            "url": "http://www.isgd.org.pe",
+            "image": "isgd.png",
+            "technology": "HTML - CSS - JS - Laravel"
+        },
+        {   
+            "name": "Landing Page - Itec",
+            "url": "http://www.itec.edu.pe",
+            "image": "itec.png",
+            "technology": "HTML - CSS - JS"
+        }
+    ]
+  }

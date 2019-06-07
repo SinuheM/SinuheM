@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A web developer and ux design living in Huancayo - Perú.">
+    <meta name="keywords" 
+            content="Adrian Priale, Gonzalo Priale, Frontend Developer, UX Designer, Freelance, Huancayo, UX design, Developer, Pagina web huancayo, Aplicaciones en Huancayo, Huancayo UX Designer, sUI/UX design">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Adrian Gonzalo Priale Cordova">
     <title>Adrian Gonzalo Priale | Web developer/designer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-    
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76167485-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -18,7 +23,6 @@
 
         gtag('config', 'UA-76167485-1');
     </script>
-
 </head>
 <body>
     <div class="wrapper" id="home">
@@ -65,72 +69,21 @@
                 <h2>Work</h2>
                 <p>Some of my web and mobile projects</p>
             </div>
-            <div class="projects">
-                <div class="project">
-                    <a href="https://dribbble.com/shots/6469990-La-bodeguita" target="_blank">
-                        <img src="img/work-bodeguita.png" alt="ideasG Project - Bodeguita">
-                    </a>
-                    <h4>Diseño y desarrollo de ecommerce para bodegas de condominios</h4>
-                    <p>
-                        <code>Paper - Figma - Ionic</code>
-                    </p>
-                </div>
-                <div class="project">
-                    <a href="http://181.224.247.171:8080/geoUefsa/#" target="_blank">
-                        <img src="img/work-sa.jpg" alt="ideasG Project">
-                    </a>
-                    <h4>Rediseño de interfaz base para proyectos geográficos</h4>
-                    <p>
-                        <code>PUG - SCSS - Vue Js - Java</code>
-                    </p>
-                </div>
-                <div class="project">
-                    <a href="http://www.carrocochino.com" target="_blank">
-                        <img src="img/work-cc.png" alt="Carrocochino Page">
-                    </a>
-                    <h4>Desarrollo de plataforma de reserva de pedidos - Carrocochino</h4>
-                    <p>
-                        <code>PUG - SASS - Angular Js</code>
-                    </p>
-                </div>
-                <div class="project">
-                    <a href="https://sidmop.com" target="_blank">
-                        <img src="img/work-sidmop.png" alt="Sidmop Page">
-                    </a>
-                        <h4>Desarrollo frontend para un sistema de geomarketing - Sidmop</h4>
-                        <p>
-                            <code>PUG - SASS - Angular Js</code>
-                        </p>
-                    </div>
-                <div class="project">
-                    <a href="http://isgd.org.pe" target="_blank">
-                        <img src="img/work-isgd.png" alt="ISGD Page">
-                    </a>
-                        <h4>Plataforma e-learning - ISGD</h4>
-                        <p>
-                            <code>HTML - CSS - JS - Laravel</code>
-                            <br><br>
-                        </p>
-                    </div>
-                <div class="project">
-                    <a href="http://www.cibercont.com" target="_blank">
-                        <img src="img/work-cibercont.png" alt="Cibercont Landing Page">
-                    </a>
-                        <h4>Landing Page - Cibercont</h4>
-                        <p>
-                            <code>HTML - CSS - JS</code>
-                        </p>
-                    </div>
-                <div class="project">
-                    <a href="http://www.itec.edu.pe" target="_blank">
-                        <img src="img/work-itec.png" alt="Itec Landing Page">
-                    </a>
-                        <h4>Landing Page - Itec</h4>
-                        <p>
-                        
-                            <code>HTML - CSS - JS</code>
-                        </p>
-                    </div>
+            <div class="projects">                
+                <script id="template" type="x-tmpl-mustache">
+                    {{#work}}
+                        <div class="project">
+                            <a href="{{url}}" target="_blank">
+                                <img src="img/work-{{image}}" alt="Imagen {{name}}">
+                            </a>
+                            <h4>{{ name }}</h4>
+                            <p>                    
+                                <code>{{ technology }}</code>
+                            </p>
+                        </div>
+                    {{/work}}
+                </script>
+                <div id="projects-target"></div>
             </div>
         </section>
         <div class="hexa"></div>
@@ -158,6 +111,8 @@
         <footer>© Made with ♡ by me.</footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
