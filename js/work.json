@@ -1,10 +1,10 @@
 {
     "work": [
         {   
-            "name": "Web Corporativa - Icetart Group",
+            "name": "Diseño y desarrollo Web Corporativa - Icetart Group",
             "url": "https://www.icetart.com/",
             "image": "icetart.png",
-            "technology": "PUG/ SCSS/"
+            "technology": "Paper/ XD/ PUG/ SCSS/"
         },
         {   
             "name": "Once upon a time - Cuentos y juegos",
@@ -13,7 +13,7 @@
             "technology": "PUG/ SCSS/ VanillaJs/"
         },
         {   
-            "name": "Diseño y desarrollo de ecommerce para bodegas de condominios",
+            "name": "Diseño de ecommerce para bodegas de condominios",
             "url": "https://dribbble.com/shots/6469990-La-bodeguita",
             "image": "bodeguita.png",
             "technology": "Paper/ Figma/ Ionic/"
@@ -30,13 +30,13 @@
             "image": "cc.png",
             "technology": "PUG/ SASS/ AngularJs/"
         },
-        {   
+        {
             "name": "Desarrollo frontend para un sistema de geomarketing - Sidmop",
             "url": "http://www.sidmop.com",
             "image": "sidmop.png",
             "technology": "PUG/ SASS/ AngularJs/"
         },
-        {   
+        {
             "name": "Desarrollo web - Infonet",
             "url": "http://infonet.edu.pe/",
             "image": "infonet.png",
@@ -49,7 +49,7 @@
             "technology": "HTML/ CSS/ JS/ Laravel/"
         },
         {   
-            "name": "Landing Page - Cibercont",
+            "name": "Desarrollo de interacciones de elementos del landing page - Cibercont",
             "url": "http://www.cibercont.com",
             "image": "cibercont.png",
             "technology": "HTML/ CSS/ JS/"
