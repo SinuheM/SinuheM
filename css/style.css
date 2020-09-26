@@ -231,8 +231,17 @@ section{
 }
 .work .project code{
     font-size: .9em;
+    color: #333;
 }
-
+.work .project h4{
+    color: #111;
+}
+.work .project.inactive{
+    filter: grayscale(100%);
+}
+.work .project.inactive h4{
+    text-decoration: line-through;
+}
 
 /*  CONTACT  */
 .contact h4{

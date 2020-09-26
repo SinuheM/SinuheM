@@ -1,14 +1,15 @@
 $(document).ready(function(){
 	
-	loadUser();
 	function loadUser() {
 		$.get( "js/work.json", function( data ) {
 			var template = $('#template').html();
 			Mustache.parse(template);   // optional, speeds up future uses
+			data.work.forEach( el => { el.active = el.status != "active"; })
 			var rendered = Mustache.render(template, data);
 			$('#projects-target').html(rendered);
 		}, "json" );
 	}
+	loadUser();
 
 	// Add smooth scrolling to all links
 	$("a").on('click', function(event) {

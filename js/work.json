@@ -1,64 +1,83 @@
 {
     "work": [
         {   
+            "name": "Diseño y desarrollo proyecto de emprendimiento social - RC19",
+            "url": "https://resistenciacomic19.pe/",
+            "image": "rc19.jpg",
+            "technology": "XD/ PUG/ SCSS/ Vue/ Codeigniter/",
+            "status": "active"
+        },
+        {   
             "name": "Diseño y desarrollo Web Corporativa - Icetart Group",
             "url": "https://www.icetart.com/",
             "image": "icetart.png",
-            "technology": "Paper/ XD/ PUG/ SCSS/"
+            "technology": "Paper/ XD/ PUG/ SCSS/",
+            "status": "active"
         },
         {   
             "name": "Once upon a time - Cuentos y juegos",
-            "url": "http://sinuhe.website/once-upon-a-time/",
+            "url": "http://proyectos.priale.com/once-upon-a-time/",
             "image": "once.png",
-            "technology": "PUG/ SCSS/ VanillaJs/"
+            "technology": "PUG/ SCSS/ VanillaJs/",
+            "status": "active"
         },
         {   
             "name": "Diseño de ecommerce para bodegas de condominios",
             "url": "https://dribbble.com/shots/6469990-La-bodeguita",
             "image": "bodeguita.png",
-            "technology": "Paper/ Figma/ Ionic/"
+            "technology": "Paper/ Figma/ Ionic/",
+            "status": "active"
         },
         {   
             "name": "Rediseño de interfaz base para proyectos geográficos",
-            "url": "http://181.224.247.171:8080/geoUefsa/#",
-            "image": "sa.png",
-            "technology": "PUG/ SCSS/ VueJs/ Java/"
-        },
-        {   
-            "name": "Desarrollo de plataforma de reserva de pedidos - Carrocochino",
-            "url": "http://www.carrocochino.com",
-            "image": "cc.png",
-            "technology": "PUG/ SASS/ AngularJs/"
+            "url": "http://bit.ly/ig_geoportal",
+            "image": "sa.jpg",
+            "technology": "PUG/ SCSS/ VueJs/ Java/",
+            "status": "active"
         },
         {
             "name": "Desarrollo frontend para un sistema de geomarketing - Sidmop",
             "url": "http://www.sidmop.com",
             "image": "sidmop.png",
-            "technology": "PUG/ SASS/ AngularJs/"
-        },
-        {
-            "name": "Desarrollo web - Infonet",
-            "url": "http://infonet.edu.pe/",
-            "image": "infonet.png",
-            "technology": "HTML/ CSS/ JS/ Wordpress/"
+            "technology": "PUG/ SASS/ AngularJs/",
+            "status": "active"
         },
         {   
             "name": "Plataforma e-learning - ISGD",
             "url": "http://www.isgd.org.pe",
             "image": "isgd.png",
-            "technology": "HTML/ CSS/ JS/ Laravel/"
+            "technology": "HTML/ CSS/ JS/ Laravel/",
+            "status": "active"
         },
         {   
             "name": "Desarrollo de interacciones de elementos del landing page - Cibercont",
             "url": "http://www.cibercont.com",
             "image": "cibercont.png",
-            "technology": "HTML/ CSS/ JS/"
+            "technology": "HTML/ CSS/ JS/",
+            "status": "active"
         },
         {   
             "name": "Landing Page - Itec",
             "url": "http://www.itec.edu.pe",
             "image": "itec.png",
-            "technology": "HTML/ CSS/ JS/"
+            "technology": "HTML/ CSS/ JS/",
+            "status": "active"
+        },
+        {   
+            "name": "Desarrollo de plataforma de reserva de pedidos - Carrocochino",
+            "url": "http://www.carrocochino.com",
+            "image": "cc.png",
+            "technology": "PUG/ SASS/ AngularJs/",
+            "status": "inactive"
+        }
+    ],
+    "old": [
+        {
+            "name": "Desarrollo web - Infonet",
+            "url": "http://infonet.edu.pe/",
+            "image": "infonet.png",
+            "technology": "HTML/ CSS/ JS/ Wordpress/",
+            "status": "inactive"
         }
     ]
-  }
+}

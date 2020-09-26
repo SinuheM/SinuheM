@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="A web developer and ux design living in Huancayo - Perú.">
     <meta name="keywords" 
-            content="Adrian Priale, Gonzalo Priale, Frontend Developer, UX Designer, Freelance, Huancayo, UX design, Developer, Pagina web huancayo, Aplicaciones en Huancayo, Huancayo UX Designer, sUI/UX design">
+            content="Adrian Priale, Gonzalo Priale, Frontend Developer, UX Designer, Freelance, Huancayo, UX design, Developer, Pagina web huancayo, Aplicaciones en Huancayo, Huancayo UX Designer, Huancayo Frontend, UI/UX design">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Adrian Gonzalo Priale Cordova">
     <title>Adrian Gonzalo Priale | Web developer/designer</title>
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76167485-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -72,15 +73,15 @@
             <div class="projects">                
                 <script id="template" type="x-tmpl-mustache">
                     {{#work}}
-                        <div class="project">
-                            <a href="{{url}}" target="_blank">
+                        <a href="{{url}}" target="_blank" class="project {{status}}" title="{{#active}}No disponible{{/active}}" >
+                            <div>
                                 <img src="img/work-{{image}}" alt="Imagen {{name}}">
-                            </a>
+                            </div>
                             <h4>{{ name }}</h4>
                             <p>                    
                                 <code>{{ technology }}</code>
                             </p>
-                        </div>
+                        </a>
                     {{/work}}
                 </script>
                 <div id="projects-target"></div>
