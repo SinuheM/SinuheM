@@ -1,7 +1,14 @@
 {
     "work": [
         {   
-            "name": "Diseño y desarrollo proyecto de emprendimiento social - RC19",
+            "name": "Desarrollo de nuevas funcionalidades y mantenimiento - Facilita",
+            "url": "https://facilita.gob.pe",
+            "image": "facilita.jpg",
+            "technology": "React/ Tailwind/ Ruby on Rails/",
+            "status": "active"
+        },
+        {   
+            "name": "Desarrollo proyecto de emprendimiento social - RC19",
             "url": "https://resistenciacomic19.pe/",
             "image": "rc19.jpg",
             "technology": "XD/ PUG/ SCSS/ Vue/ Codeigniter/",
@@ -37,7 +44,7 @@
         },
         {
             "name": "Desarrollo frontend para un sistema de geomarketing - Sidmop",
-            "url": "http://www.sidmop.com",
+            "url": "http://www.sidmop.lat",
             "image": "sidmop.png",
             "technology": "PUG/ SASS/ AngularJs/",
             "status": "active"
@@ -54,14 +61,14 @@
             "url": "http://www.cibercont.com",
             "image": "cibercont.png",
             "technology": "HTML/ CSS/ JS/",
-            "status": "active"
+            "status": "inactive"
         },
         {   
             "name": "Landing Page - Itec",
             "url": "http://www.itec.edu.pe",
             "image": "itec.png",
             "technology": "HTML/ CSS/ JS/",
-            "status": "active"
+            "status": "inactive"
         },
         {   
             "name": "Desarrollo de plataforma de reserva de pedidos - Carrocochino",
